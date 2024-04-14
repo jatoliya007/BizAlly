@@ -1,0 +1,183 @@
+.body {
+	width: 100%;
+	height: 100vh;
+	font-family: poppins, sans-serif;
+}
+
+.top-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.upper-header {
+	width: 100%;
+	height: 50px;
+	margin-top: -7px;
+	background-color: #4063e0;
+}
+
+.bottom-header {
+	width: 100%;
+	height: 75px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {}
+
+.links-container {
+	width: 100%;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+
+}
+
+/* .navbar nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.navbar nav ul li {
+	padding-right: 60px;
+	cursor: pointer;
+} */
+
+.menu-main {
+	position: relative;
+}
+
+.menu-main button {
+	padding-right: 60px;
+	padding-bottom: 30px;
+	padding-top: 26px;
+	border-style: none;
+	background-color: rgb(241, 57, 57);
+	background-color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	left: 0;
+
+}
+
+/* .dropdown-content {
+	display: none;
+	position: absolute;
+	width: 1260px;
+	left: -200px;
+	height: auto;
+	max-height: 800px;
+	background-color: pink;
+} */
+
+.dropdown-content a {
+	display: block;
+}
+
+.menu-main:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.link-one {	
+	position: absolute;
+	height: auto;
+	width: 1000px;
+	left: -200px;
+	max-height: 800px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	margin-top: 0px;
+	background-color: pink;
+	border-radius: 15px;
+	/* margin-right: 50px; */
+}
+/* .link-one {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	background-color: antiquewhite;
+} */
+#startup-link {
+	
+}
+
+#ip-link {
+    margin-left: -120px;
+} 
+
+#fundraising-link {
+	margin-left: -250px;
+}
+
+#compliance-link {
+	margin-left: -400px;
+}
+
+#hr-link {
+	margin-left: -540px;
+}
+
+#hr-link li {
+	padding-right: 32px;
+}
+
+#vcfo-link {
+	margin-left: -724px;
+}
+
+.menu-content-list {
+	padding-right: 150px;
+}
+
+.dropdown-content ul li a {
+	text-decoration: none;
+	/* color: black; */
+}
+
+.dropdown-content ul li .font {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 19px;
+	color: black;
+}
+
+.dropdown-content ul li a:hover {}
+
+.submenu {
+	width: max-content;
+	margin-left: -40px;
+}
+
+.submenu li a {
+	font-size: 15px;
+	line-height: 30px;
+	color: rgb(97, 95, 95);
+
+}
+
+@media screen and (max-width: 1000px) {
+	body {
+	  background-color: lightgreen;
+	}
+  }
