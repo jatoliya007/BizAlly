@@ -1,0 +1,38 @@
+
+
+
+/* handles top bar */
+@media screen and (max-width: 600px) {
+    .upper-side {
+        height: auto;
+    }
+    .upper-row {
+        flex-direction: column;
+    }
+
+    .left-side ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-side ul li:first-child {
+        border-left: none;
+    }
+    .left-side ul li {
+        border-right: none;
+    }    
+
+    .right-side ul li:first-child {
+        border-left: none;
+    }
+    .right-side ul li {
+        border-right: none;
+    }
+
+    
+}   
+
+@media screen and (max-width: 1000px) {
+
+
+}

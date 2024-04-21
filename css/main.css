@@ -9,7 +9,8 @@ body {
 	align-items: center;
 	text-align: center;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 20px;
+	vertical-align: middle;
 }
 
 .fa-facebook {
@@ -57,22 +58,23 @@ body {
 .upper-row {
 	width: 100%;
 	display: flex;
-	flex-wrap: wrap;
+	justify-content: space-between;
+	/* flex-wrap: wrap; */
 	/* max-width: 1200px; */
 	padding: 0 5%;
 }
 
 .left-side {
 	/* position: relative; */
-	max-width: 60%;
-	width: 100%;
+	/* max-width: 60%;
+	width: 100%; */
 }
 
 .left-side ul {
 	margin: 0;
-	float: left;
+	/* float: left; */
 	padding: 0;
-
+	height: 100%;
 }
 .left-info {
 	color: white;
@@ -80,6 +82,7 @@ body {
 }
 
 .left-side ul li {
+	height: inherit;
 	list-style: none;
 	display: inline-block;
 	border-right: 1px solid white;
@@ -97,16 +100,19 @@ body {
 
 .right-side {
 	/* position: relative; */
-	max-width: 40%;
-	width: 100%;
+	/* max-width: 40%;
+	width: 100%; */
 }
 
 .right-side ul {
-	float: right;
-	margin: 0;
+	/* float: right;
+	margin: 0; */
+	padding: 0;
+	height: 100%;
 }
 
 .right-side ul li {
+	height: inherit;
 	list-style: none;
 	display: inline-block;
 	border-right: 1px solid white;
@@ -130,6 +136,7 @@ body {
 
 .bottom-row {
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	padding: 0 5%;
 	/* margin-left: 10px; */
@@ -300,7 +307,7 @@ body {
 }
 
 #myCarousel .carousel-inner>.item>img {
-	height: 76vh;
+	height: 550px;
 	filter: brightness(.65);
 	
 }
