@@ -179,16 +179,21 @@ body {
 	display: block;
 }
 
+.navlink{
+	min-height: 50px;
+}
+
 .nav-item ul {
 	margin: 27px 0;
 	position: relative;
-	float: left;
+	float: right;
 	/* margin-left: 10px; */
 }
 
 .nav-item ul li {
 	float: left;
 	list-style: none;
+	align-content: center;
 }
 
 .nav-item ul li a.front-menu {
@@ -197,11 +202,11 @@ body {
 	font-family: sans-serif;
 	font-weight: 400;
 	line-height: 18px;
-	letter-spacing: 0;
+	letter-spacing: 1px;
 	text-align: right;
 	cursor: pointer;
 	/* background-color: #f6f1f1; */
-	padding: 27px 20px;
+	padding: 28px 10px;
 	color: #808080;
 }
 
@@ -226,12 +231,16 @@ body {
 	width: 1020px;
 	padding: 25px 25px;
 	background-color: #f6f1f1;
-	left: -280px;
+	left: -65%;
 	z-index: 100;
 }
 
-.nav-item ul li ul li {
-	width: 23%;
+/* .nav-item ul li ul li {
+	width: 27%;
+} */
+
+.menu-content-list {
+	width: 27%;
 }
 
 .nav-item ul li ul li .font {
@@ -244,7 +253,7 @@ body {
 	padding-bottom: 10px;
 	margin-bottom: 5px;
 	display: table;
-	font-family: "sans-serif";
+	font-family: sans-serif;
 	text-decoration: none;
 }
 
@@ -260,7 +269,7 @@ body {
 	letter-spacing: 0;
 	line-height: 30px;
 	font-weight: 400;
-	font-family: "sans-serif";
+	font-family: sans-serif;
 	text-decoration: none;
 
 }
@@ -280,7 +289,7 @@ body {
 	color: #072160;
 	border-radius: 6px;
 	/* background-color: #f2f2f2; */
-	font-family: "sans-serif";
+	font-family: sans-serif;
 	/* background-color: white; */
 	transition: all 0.5s ease 0s;
 	font-weight: 600;
@@ -299,12 +308,16 @@ body {
 #myCarousel .carousel-caption {
 	bottom: 50%;
     transform: translateY(50%);
-
 }
 
 #myCarousel .contact-button {
 	bottom: 50%;
     transform: translateY(50%);
+}
+
+#myCarousel .carousel-caption h1 {
+    font-size: 42px;
+	font-weight: 700;
 }
 
 .contact-button {
@@ -342,112 +355,12 @@ body {
 }
 
 
-/* #myCarousel {
-	overflow:hidden
-}
 
-.slide {
-	display: flex;
-	flex-direction: column;
-	-webkit-box-align: stretch;
-	align-items: stretch;
-}
-
-.carousel {
-	position: relative;
-}
-
-#myCarousel .carousel-indicators {
-	bottom: 5%;
-}
-
-.carousel-indicators {
-	position: absolute;
-	display: flex;
-	justify-content: center;
-	right: 0;
-	left: 0;
-	z-index: 15;
-	padding-left: 0;
-    margin-right: 15%;
-    margin-left: 15%;
-    list-style: none;
-}
-
-#myCarousel .carousel-indicators li {
-	margin: auto 1rem;
-    height: 14px;
-    width: 14px;
-    border-radius: 100%;
-    /* background-color: #fff;
-	
-}*/
-
+    
 /* @media screen and (max-width: 1000px) {
 	body {
 		background-color: lightgreen;
 	}
 } */
 
-/* .hero-container {
-	width: 100%;
-	height: 600px;
-
-}
-
-.background-hero-image {
-	background-image: url("./../img/hero.jpeg");
-	background-repeat: repeat;
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-	display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-} */
-
-/* .tagline {
-	margin-top: -15px;
-	font-size: 30px;
-	align-items: center;
-    display: flex;
-    flex-direction: column;
-	justify-content: center;
-    vertical-align: middle;
-    font-family: sans-serif;
-    font-weight: 700;
-    line-height: 1.3;
-
-}
-
-.tagline h1 {
-	color: #fff;
-}
-
-.tagline-one {
-	margin-bottom: -8px 
-}
-
-.contact-button {
-
-}
-
-.contact-button button {
-	width: 200px;
-    height: 45px;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    border-radius: 4px;
-    border-style: none;
-    padding: 12px 16px;
-	cursor: pointer;
-}
-
-.contact-button button:hover {
-    background-color: transparent;
-    border: #fff 2px solid;
-	color: #fff;
-} */
+	
