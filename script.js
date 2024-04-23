@@ -1,20 +1,33 @@
-// function navHoverContent(contentId){
-//     console.log('navHoverContent ', contentId);
+function myFunction (){
 
-// let linksContainer = document.getElementById("links-container");
+    let mydiv = document.getElementById("myDiv");
 
-// let linkOne = document.getElementsByClassName("link-one");
-// for(let i = 0; i < linkOne; i++);
+    if (mydiv.style.display === "block"){
 
-// linkOne[i].style.display = "none";
+        mydiv.style.display = "none";
 
-// }
+    } else {
 
-// if(contentId){
-//     document.getElementById(contentId).style.display = "block";
+        mydiv.style.display = "block";
+        
+    }
+}
 
-// }
-// else{
-//     document.getElementById(contentId).style.display = "block";
-
-// }
+function onMenuItemClick(evt){
+    console.log('evt', evt)
+    if(window.innerWidth > 970 ){
+        return;
+    }
+    let display = evt.nextElementSibling.style.display;
+    if (display !== "block"){
+        evt.nextElementSibling.style.display = "block"
+        evt.nextElementSibling.querySelectorAll('ul').forEach(x => {
+            x.style.display = "block"
+        })
+    }else{
+        evt.nextElementSibling.style.display = "none";
+        evt.nextElementSibling.querySelectorAll('ul').forEach(x => {
+            x.style.display = "none"
+        })
+    }
+}

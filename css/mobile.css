@@ -1,7 +1,5 @@
 
 
-
-/* handles top bar */
 @media screen and (max-width: 600px) {
     .upper-side {
         height: auto;
@@ -32,7 +30,90 @@
     
 }   
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 970px) {
+
+    fa-bars {
+        width: 40px;
+        height: 25px;
+    }
+
+    .links-container {
+        width: inherit;
+    }
+
+    .navbar-item {
+        width: inherit;
+        vertical-align: middle;
+    }
+
+    .nav-item {
+        width: 100%;
+        display: inline-grid;
+    }
+
+    .nav-bar-menu-mobile {
+        position: absolute;
+        display: block;
+        width: auto;
+        padding: 18px 20px;
+        border: 1px solid black;
+        right: 20px;
+        left: auto;
+        top: 51px;
+    }
+
+    .nav-bar-menu-mobile span {
+        position: absolute;
+        cursor: pointer;
+        display: block;
+    }
+
+    #myDiv {
+        display: none;
+    }
+
+    .nav-item > ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-item > ul > li {
+        padding: 15px 0;
+        position: relative;
+        width: 100%;
+        border-bottom: 1px solid lightgrey;
+
+    }
+
+    .nav-item > ul > li a.front-menu {
+        color: blue !important;
+        padding: 0;
+    }
+
+    .nav-item > ul > li > ul {
+        position: relative;
+        padding: 0;
+    }
+
+    .dropdown-content {
+        width: auto;
+        height: auto;
+        padding: 0 15px;
+        position: static;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-content-list {
+        padding: 30px 0;
+        width: auto;
+    }
+
+    .nav-item > ul > li > ul > li .font {
+        display: block !important;
+    }
+
+    
 
 
 }
