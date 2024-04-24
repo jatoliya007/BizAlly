@@ -36,9 +36,8 @@
 /* top nav bar */
 @media screen and (max-width: 970px) {
 
-    fa-bars {
-        width: 40px;
-        height: 25px;
+    .fa-bars {
+        font-size: 25px;
     }
 
     .app-header {
@@ -69,18 +68,17 @@
 
     .nav-bar-menu-mobile {
         /* position: absolute; */
-        display: block;
+        display: flex;
         width: auto;
-        padding: 17px 20px;
+        padding: 10px 10px;
         border: 1px solid black;
         right: 35px;
         left: auto;
         top: 20%;
-        vertical-align: middle;
+        justify-content: center;
     }
 
     .nav-bar-menu-mobile span {
-        position: absolute;
         cursor: pointer;
         display: block;
     }
