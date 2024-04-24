@@ -39,6 +39,10 @@
         height: 25px;
     }
 
+    .logo {
+        width: 100%;
+    }
+
     .links-container {
         width: inherit;
     }
@@ -54,7 +58,7 @@
     }
 
     .nav-bar-menu-mobile {
-        position: absolute;
+        /* position: absolute; */
         display: block;
         width: auto;
         padding: 17px 20px;
