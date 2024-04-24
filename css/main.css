@@ -99,8 +99,8 @@ body {
 	list-style: none;
 	display: inline-block;
 	border-right: 1px solid white;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .left-side ul li:first-child {
@@ -252,10 +252,10 @@ body {
 .dropdown-content {
 	position: absolute;
 	top: 5px;
-	width: 1020px;
+	width: 900px;
 	padding: 25px 25px;
 	background-color: #f6f1f1;
-	left: -65%;
+	left: -45%;
 	z-index: 100;
 }
 
@@ -264,7 +264,7 @@ body {
 } */
 
 .menu-content-list {
-	width: 27%;
+	width: 33%;
 }
 
 .nav-item ul li ul li .font {
