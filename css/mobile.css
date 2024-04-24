@@ -1,5 +1,5 @@
 
-
+/* for tob blue bar */
 @media screen and (max-width: 600px) {
     .upper-side {
         height: auto;
@@ -32,11 +32,21 @@
     
 }   
 
+
+/* top nav bar */
 @media screen and (max-width: 970px) {
 
     fa-bars {
         width: 40px;
         height: 25px;
+    }
+
+    .app-header {
+        position: relative;
+    }
+
+    .app-content {
+        padding-top: 10px;
     }
 
     .logo {

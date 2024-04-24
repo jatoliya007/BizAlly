@@ -5,6 +5,17 @@ body {
 	font-family: sans-serif;
 }
 
+.app-header {
+	position: fixed;
+	z-index: 1;
+	background: white;
+	width: 100%;
+}
+
+.app-content {
+	padding-top: 115px;
+}
+
 .fa {
 	align-items: center;
 	text-align: center;
@@ -165,8 +176,7 @@ body {
 }
 
 .logo img {
-	width: 250px;
-	height: 95px;
+	width: 200px;
 	margin-bottom: 0px;
 	display: inline-block;
 	/* padding-left: 30px; */
@@ -208,7 +218,7 @@ body {
 }
 
 .nav-item ul {
-	margin: 27px 0;
+	margin: 10px 0;
 	position: relative;
 	float: right;
 	/* margin-left: 10px; */
@@ -230,7 +240,7 @@ body {
 	text-align: right;
 	cursor: pointer;
 	/* background-color: #f6f1f1; */
-	padding: 28px 10px;
+	padding: 20px 10px;
 	color: #808080;
 }
 
@@ -251,7 +261,7 @@ body {
 
 .dropdown-content {
 	position: absolute;
-	top: 5px;
+	top: 15px;
 	width: 900px;
 	padding: 25px 25px;
 	background-color: #f6f1f1;
