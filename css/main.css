@@ -443,45 +443,24 @@ body {
 	transform: translateY(50%);
 }
 
-#myCarousel .contact-button {
-	bottom: 50%;
-	transform: translateY(50%);
+.carousel-caption button {
+	padding: 10px 50px;
+    margin: 20px;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.carousel-caption button:hover {
+	background-color: transparent;
+	border: #fff 2px solid;
+	color: #fff;
 }
 
 #myCarousel .carousel-caption h1 {
 	font-size: 42px;
 	font-weight: 700;
 }
-
-.contact-button {
-	position: absolute;
-	z-index: 15;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	vertical-align: middle;
-	left: 15%;
-	right: 15%;
-	bottom: 100px;
-	bottom: 0;
-	padding-top: 170px;
-
-}
-
-.contact-button button {
-	width: 200px;
-	height: 45px;
-	font-size: 15px;
-	font-weight: 700;
-	letter-spacing: 2px;
-}
-
-.contact-button button:hover {
-	background-color: transparent;
-	border: #fff 2px solid;
-	color: #fff;
-}
-
 
 
 
@@ -687,8 +666,8 @@ input[type=submit]:hover {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	/* justify-content: space-evenly; */
-    padding: 0px 20px;
+	justify-content: space-evenly;
+    /* padding: 0px 20px; */
 }
 
 .vertival-image {
@@ -727,7 +706,7 @@ input[type=submit]:hover {
 	font-size: 15px;
 	display: block;
 	font-weight: 600;
-	color: var(--info);;
+	color: var(--blue);;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	line-height: 50px;
@@ -772,7 +751,7 @@ input[type=submit]:hover {
 	font-weight: 600;
     font-size: 25px;
     line-height: 1.5;
-	color: var(--info);;
+	color: var(--blue);;
     letter-spacing: 1px;
 }
 
