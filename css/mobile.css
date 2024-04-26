@@ -1,0 +1,160 @@
+
+/* for tob blue bar */
+@media screen and (max-width: 600px) {
+    .upper-side {
+        height: auto;
+    }
+    .upper-row {
+        flex-direction: column;
+    }
+
+    .left-side ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-side ul li:first-child {
+        border-left: none;
+    }
+    .left-side ul li {
+        border-right: none;
+    }    
+
+    .right-side ul li:first-child {
+        border-left: none;
+    }
+    .right-side ul li {
+        border-right: none;
+    }
+
+  
+
+    
+}   
+
+
+/* top nav bar */
+@media screen and (max-width: 970px) {
+
+    /* .fa-bars {
+        font-size: 25px;
+    } */
+
+    .app-header {
+        position: relative;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10000;
+        transition: none;
+        transform: scale(1);
+        box-shadow: 0.5rem 1.1rem 1.6rem -0.2rem rgb(0 0 0 / 50%);
+    }
+
+    .app-content {
+        padding-top: 0;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .links-container {
+        width: inherit;
+    }
+
+    .navbar-item {
+        width: inherit;
+        vertical-align: middle;
+    }
+
+    .nav-item {
+        width: 100%;
+        display: inline-grid;
+    }
+
+    .navlink > div {
+        display: flex;
+    }
+
+    .expand{
+        display: flex;
+    }
+
+    .nav-item ul li a.front-menu:hover {
+        color: black;
+    }
+
+    .nav-bar-menu-mobile {
+        /* position: absolute; */
+        display: flex;
+        width: auto;
+        padding: 10px 10px;
+        border: 1px solid black;
+        right: 35px;
+        left: auto;
+        top: 20%;
+        justify-content: center;
+    }
+
+    .nav-bar-menu-mobile span {
+        cursor: pointer;
+        display: block;
+    }
+
+    #myDiv {
+        display: none;
+        padding: 10px 0px;
+    }
+
+    .nav-item > ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-item > ul > li {
+        padding: 15px 0;
+        position: relative;
+        width: 100%;
+        border-bottom: 1px solid lightgrey;
+
+    }
+
+    .nav-item > ul > li a.front-menu {
+        color: black !important;
+        padding: 0;
+        border-bottom: none !important;
+    }
+
+    .nav-item > ul > li > ul {
+        position: relative;
+        padding: 0;
+    }
+
+    .dropdown-content {
+        width: auto;
+        height: auto;
+        padding: 0 15px;
+        position: static;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-content-list {
+        padding: 30px 0;
+        width: auto;
+    }
+
+    .nav-item > ul > li > ul > li .font {
+        display: block !important;
+    }
+
+    
+    .bottom-side {
+        position: relative;
+    }
+
+}
