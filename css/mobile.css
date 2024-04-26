@@ -36,12 +36,22 @@
 /* top nav bar */
 @media screen and (max-width: 970px) {
 
-    .fa-bars {
+    /* .fa-bars {
         font-size: 25px;
-    }
+    } */
 
     .app-header {
         position: relative;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10000;
+        transition: none;
+        transform: scale(1);
+        box-shadow: 0.5rem 1.1rem 1.6rem -0.2rem rgb(0 0 0 / 50%);
     }
 
     .app-content {
@@ -64,6 +74,14 @@
     .nav-item {
         width: 100%;
         display: inline-grid;
+    }
+
+    .expand{
+        display: flex;
+    }
+
+    .nav-item ul li a.front-menu:hover {
+        color: black;
     }
 
     .nav-bar-menu-mobile {
@@ -102,8 +120,9 @@
     }
 
     .nav-item > ul > li a.front-menu {
-        color: blue !important;
+        color: black !important;
         padding: 0;
+        border-bottom: none !important;
     }
 
     .nav-item > ul > li > ul {
