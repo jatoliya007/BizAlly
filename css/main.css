@@ -315,6 +315,10 @@ body {
 	min-height: 50px;
 }
 
+.navlink > div {
+	display: block;
+}
+
 .nav-item ul {
 	margin: 10px 0;
 	position: relative;

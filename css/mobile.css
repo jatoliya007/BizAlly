@@ -76,6 +76,10 @@
         display: inline-grid;
     }
 
+    .navlink > div {
+        display: flex;
+    }
+
     .expand{
         display: flex;
     }
