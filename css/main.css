@@ -153,6 +153,8 @@ body {
 	padding: 0 5%;
 }
 
+.upper-row 
+
 .left-side {
 	/* position: relative; */
 	/* max-width: 60%;
@@ -192,7 +194,7 @@ body {
 .left-side ul li a:hover {
 	font-size: 15px;
 	transition: 0.4s;
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 .expand {
@@ -235,7 +237,7 @@ body {
 .right-side ul li a:hover {
 	font-size: 17px;
 	transition: 0.4s;
-	transform: scale(1.2);
+	transform: scale(1.1);
 
 }
 
