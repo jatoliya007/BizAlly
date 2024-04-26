@@ -153,6 +153,8 @@ body {
 	padding: 0 5%;
 }
 
+.upper-row 
+
 .left-side {
 	/* position: relative; */
 	/* max-width: 60%;
@@ -192,7 +194,7 @@ body {
 .left-side ul li a:hover {
 	font-size: 15px;
 	transition: 0.4s;
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 .expand {
@@ -235,7 +237,7 @@ body {
 .right-side ul li a:hover {
 	font-size: 17px;
 	transition: 0.4s;
-	transform: scale(1.2);
+	transform: scale(1.1);
 
 }
 
@@ -665,14 +667,15 @@ input[type=submit]:hover {
 .icons-container {
 	display: flex;
 	flex-wrap: wrap;
+	column-gap: 30px;
 	width: 100%;
-	justify-content: space-evenly;
+	justify-content: center;
     /* padding: 0px 20px; */
 }
 
 .vertival-image {
 	/* width: 50%; */
-	min-width: 400px;
+	max-width: 450px;
 	padding: 1px;
 	/* padding-left: 50px; */
 	/* padding-right: 50px; */
@@ -688,6 +691,7 @@ input[type=submit]:hover {
 
 .icons-for-best {
 	/* width: 50%; */
+	max-width: 450px;
 	padding-left: 50px;
 	display: flex;
 	flex-direction: column;
