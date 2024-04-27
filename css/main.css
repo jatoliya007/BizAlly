@@ -434,7 +434,7 @@ body {
 }
 
 #myCarousel .carousel-inner>.carousel-item>img {
-	height: 700px;
+	height: 600px;
 	filter: brightness(.65);
 	object-fit: cover;
 
