@@ -443,6 +443,7 @@ body {
 #myCarousel .carousel-caption {
 	bottom: 50%;
 	transform: translateY(50%);
+	filter: drop-shadow(2px 5px 6px grey);
 }
 
 .carousel-caption button {
