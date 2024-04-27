@@ -44,6 +44,11 @@ function onMenuItemClick(evt){
     }
 }
 
+function chatWithUs(evt) {
+    let mob = document.querySelector('.fa-phone').innerText;
+    window.open(`https://api.whatsapp.com/send?phone=${mob}&text=Hey%20BizAllys`, "_blank")
+}
+
 // for scrolling navbar fixed
 window.onscroll = function() {myscroll()};
 
@@ -54,8 +59,7 @@ let sticky = fixedbar.offsetTop;
 function myscroll() {
     if (window.scrollY >= sticky) {
         fixedbar.classList.add("sticky")
-} else {
-    fixedbar.classList.remove("sticky");
-}
-
+    } else {
+        fixedbar.classList.remove("sticky");
+    }
 }
