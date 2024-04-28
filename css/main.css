@@ -265,7 +265,6 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 10000;
 	transition: 0.4s;
 	transform: scale(1.05);
 	box-shadow: 0.5rem 1.1rem 1.6rem -0.2rem rgb(0 0 0 / 50%);
@@ -552,6 +551,7 @@ body {
 .headline h1 {
 	font-size: 30px;
 	font-weight: 800;
+	text-align: center;
 }
 
 .icon-with-text {
