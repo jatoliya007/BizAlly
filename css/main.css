@@ -82,6 +82,10 @@ body {
 	/* padding-top: 115px; */
 }
 
+.fa-close, .fa-bars, .fa-chevron-down, .fa-chevron-up {
+	color: var(--primary) !important;
+}
+
 .chat-with-us {
 	align-items: center;
     background-color: #f6f6f6;
@@ -387,6 +391,15 @@ body {
 	background-color: #f6f1f1;
 	left: -45%;
 	z-index: 100;
+	border-radius: 5px;
+	animation: fadeinout .3s ease-in;
+	border-top: 2px solid var(--bs-info);
+	
+}
+
+@keyframes fadeinout {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
 }
 
 .menu-content-list {
@@ -448,7 +461,8 @@ body {
 
 /* 1st Block */
 #myCarousel .carousel-indicators button {
-	/* background-color: var(--info);; */
+    background-color: var(--bs-info);
+    height: 10px;
 }
 
 #myCarousel .carousel-inner>.carousel-item>img {

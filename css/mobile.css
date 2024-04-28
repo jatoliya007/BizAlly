@@ -48,7 +48,7 @@
         position: fixed;
         top: 0;
         width: 100%;
-        z-index: 10000;
+        z-index: 1;
         transition: none;
         transform: scale(1);
         box-shadow: 0.5rem 1.1rem 1.6rem -0.2rem rgb(0 0 0 / 50%);
