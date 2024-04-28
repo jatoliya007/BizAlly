@@ -33,7 +33,7 @@
 }   
 
 
-/* top nav bar */
+/* screen less than 970px */
 @media screen and (max-width: 970px) {
 
     /* .fa-bars {
@@ -152,5 +152,21 @@
         display: block !important;
     }
 
+    .services-row > div {
+        animation-name: none !important;
+    }
 
+
+}
+
+/* screen less than 400px */
+@media screen and (max-width: 400px) {
+
+    .services-row > div {
+        min-width: 90%;
+    }
+
+    .feature-item:hover {
+        transform: none;
+    }
 }
