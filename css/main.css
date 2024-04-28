@@ -102,14 +102,15 @@ body {
 
 #contact-us-animation {
 	width: 200px;
-	height: 100px;
+	height: 150px;
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	animation-name: updown;
-	animation-duration: 10s;
+	animation-duration: 5s;
 	animation-iteration-count: infinite;
 	z-index: 100;
+	margin-bottom: 15px;
 }
 
 @keyframes updown {
@@ -517,14 +518,15 @@ body {
 	color: var(--primary);
 }
 
-.headline h3 {
-	font-size: 15px;
+.headline h2 {
+	font-size: 24px;
 	display: block;
 	font-weight: 600;
 	color: var(--blue);;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	line-height: 50px;
+	text-align: center;
 }
 
 .headline h1 {
@@ -572,8 +574,9 @@ body {
 	font-weight: 600;
     font-size: 25px;
     line-height: 1.5;
-	color: var(--blue);;
+	/* color: var(--blue);; */
     letter-spacing: 1px;
+	color: black;
 }
 
 .icon-details h2 {
@@ -602,7 +605,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
 	max-width: 230px;
-    margin: 10px;
+    margin: 15px;
 }
 
 .services-row > div:nth-child(even) {
@@ -632,15 +635,37 @@ body {
     transition: all .5s;
 }
 
+.feature-item:hover {
+    transition: 0.5;
+	transform: scale(1.1);
+	box-shadow: 0px 10px 10px rgb(0 0 0 / 15%);
+}
+
 .border-box {
     
 }
 
 .caption {
-    display: grid;
-    grid-gap: 10px;
+    /* display: grid; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    grid-gap: 20px;
 	padding: 20px;
-    border: 1px solid;
+    /* border: 1px solid; */
+}
+
+.caption>h2 {
+	font-weight: 700;
+    line-height: 35px;
+    font-size: 25px;
+    margin-top: 0;
+    color: var(--primary);;
+}
+
+.caption>p {
+	text-align: center;
 }
 
 /* Footer */
