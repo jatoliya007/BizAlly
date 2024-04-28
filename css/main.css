@@ -264,6 +264,7 @@ body {
 .sticky {
 	position: fixed;
 	top: 0;
+	z-index: 3;
 	width: 100%;
 	transition: 0.4s;
 	transform: scale(1.05);
@@ -566,8 +567,8 @@ body {
 	position: relative;
 	display: flex;
 
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	justify-content: center;
     align-items: center;
 }
