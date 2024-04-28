@@ -264,8 +264,8 @@ body {
 .sticky {
 	position: fixed;
 	top: 0;
+	z-index: 3;
 	width: 100%;
-	z-index: 10000;
 	transition: 0.4s;
 	transform: scale(1.05);
 	box-shadow: 0.5rem 1.1rem 1.6rem -0.2rem rgb(0 0 0 / 50%);
@@ -553,6 +553,7 @@ body {
 .headline h1 {
 	font-size: 30px;
 	font-weight: 800;
+	text-align: center;
 }
 
 .icon-with-text {
@@ -567,8 +568,8 @@ body {
 	position: relative;
 	display: flex;
 
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	justify-content: center;
     align-items: center;
 }
@@ -658,7 +659,7 @@ body {
 }
 
 .feature-item:hover {
-    transition: 0.5;
+    /* transition: 0.5; */
 	transform: scale(1.1);
 	box-shadow: 0px 10px 10px rgb(0 0 0 / 15%);
 }
@@ -818,7 +819,7 @@ input[type=text] {
 	border-radius: 20px;
 	margin-bottom: 15px;
 	background-color: #343434;
-	color: lightgray !important;
+	color: #ffffff80 !important;
 	box-sizing: border-box;
 	height: 40px;
 	line-height: 40px;
@@ -826,6 +827,10 @@ input[type=text] {
 	box-shadow: none;
 	text-shadow: none;
 	outline: none;
+}
+
+input[type=text]::placeholder,textarea::placeholder {
+	color: #ffffff80 !important;
 }
 
 textarea {
@@ -872,7 +877,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-	color: var(--info);;
+	color: var(--info);
 	background-color: white;
 }
 /* ---Footer--- */
