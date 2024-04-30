@@ -715,26 +715,67 @@ body {
 }
 
 .bold-heading h1 {
-	/* color: #193b87; */
 	color: white;
 	font-weight: 600;
     letter-spacing: 1px;
 }
 
-.view-all button {
+/* .view-all button {
 	padding: 12px 30px;
     border-radius: 30px;
     font-size: 18px;
-    /* background-color: #00267a; */
     color: 00267a;
-    /* background-color: #193b87; */
 	background-color: white;
 	border: none;
 }
 
 .view-all button:hover {
-	/* background-color: #f79311; */
 	background-color: rgba(176, 185, 76, 1.000);
+} */
+
+/* for desktop view */
+@media (min-width: 768px) {
+	#carouselExampleControls .carousel-inner {
+	  display: flex;
+	}
+	#carouselExampleControls .carousel-item {
+	  margin-right: 0;
+	  flex: 0 0 33.333333%;
+	  display: block;
+	}
+	#carouselExampleControls .carousel-inner{
+		padding: 2em;
+	}
+	#carouselExampleControls .card{
+		margin: 0 1em;
+		box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+		border: none;
+	}
+	#carouselExampleControls .carousel-control-prev, .carousel-control-next{
+		width: 10vh;
+        height: 10vh;
+        border-radius: 50%;
+        top: 60%;
+        transform: translateY(-50%);
+        padding: 5px;
+	}
+    #video-button button {
+		border-radius: 50%;
+        height: 60px;
+        width: 60px;
+		border: none;
+	}
+	#video-button button:hover {
+		background-color: #f2c433;
+	}
+	#left-icon {
+		font-size: 30px;
+		color: #00267a
+	}
+	#right-icon {
+		font-size: 30px;
+		color: #00267a;
+	}
 }
 /* <!-- 4th Block --> */
 
@@ -921,3 +962,4 @@ input[type=submit]:hover {
 	background-color: white;
 }
 /* ---Footer--- */
+
