@@ -1,6 +1,10 @@
 /* var(--info); */
 /* #1ba12d */
 /* #a1b3f5 */
+/* #f79311 */
+/* #4063e0 */
+/* #00267a blue color from pkc suggested by client */
+/* rgba(176, 185, 76, 1.000) */
 
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
@@ -92,6 +96,7 @@ body {
     border-radius: 50px 50px 50px 50px;
 	filter: drop-shadow(2px 4px 6px grey);
     padding: 0 0px;
+	padding-right: 10px;
 	cursor: pointer;
 }
 
@@ -567,11 +572,11 @@ body {
 	border-radius: 50%;
 	position: relative;
 	display: flex;
-
 	width: 150px;
 	height: 150px;
 	justify-content: center;
     align-items: center;
+	border: 10px solid white   /*for testing*/
 }
 
 .finance-icons img {
@@ -697,6 +702,41 @@ body {
 	text-align: center;
 }
 /* ---3rd Block--- */
+
+/* <!-- 4th Block --> */
+.max-width-fourth {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 30px;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #00267a;
+}
+
+.bold-heading h1 {
+	/* color: #193b87; */
+	color: white;
+	font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.view-all button {
+	padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    /* background-color: #00267a; */
+    color: 00267a;
+    /* background-color: #193b87; */
+	background-color: white;
+	border: none;
+}
+
+.view-all button:hover {
+	/* background-color: #f79311; */
+	background-color: rgba(176, 185, 76, 1.000);
+}
+/* <!-- 4th Block --> */
 
 /* ---Footer--- */
 .footer {
