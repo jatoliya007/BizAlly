@@ -63,3 +63,27 @@ function myscroll() {
         fixedbar.classList.remove("sticky");
     }
 }
+
+
+// Videos Carousel
+const videoCarousel = document.getElementById("carouselExampleControls");
+const videoCarouselInner = document.querySelector("#carousel-inner-video");
+var carouselWidth = videoCarouselInner?.scrollWidth;
+var cardWidth = videoCarousel.children[0].children[0].scrollWidth;
+var scrollPosition = 0;
+
+function videoCarouselNextClick () {
+    scrollPosition = videoCarouselInner.scrollLeft;
+    if (scrollPosition < (carouselWidth - cardWidth * 4)) { //check if you can go any further
+      scrollPosition += cardWidth;  //update scroll position
+      $("#carousel-inner-video").animate({ scrollLeft: scrollPosition },600); //scroll left
+    }
+};
+
+function videoCarouselPrevClick () {
+    scrollPosition = videoCarouselInner.scrollLeft;
+    if (scrollPosition > 0) {
+        scrollPosition -= cardWidth;
+        $("#carousel-inner-video").animate({ scrollLeft: scrollPosition },600);
+    }
+};

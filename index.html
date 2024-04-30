@@ -64,7 +64,7 @@
 
     </div>
 
-    <div id="fixed-bar" class="bottom-side">
+    <div id="fixed-bar" onclick="event.preventDefault();event.stopPropagation();" class="bottom-side">
 
         <div class="bottom-row">
 
@@ -506,222 +506,280 @@
             </button>
         </div>
 
-    <div class="icons-container">
-        <div class="vertival-image">
-            <img src="img/vertical_1.jpg">
-        </div>
-
-        <div class="icons-for-best">
-            <div class="headline">
-                <h3>WELCOME TO BIZALLYS </h3>
-                <h1>We Are The Best Accounting Agency</h1>
+        <div class="icons-container">
+            <div class="vertival-image">
+                <img src="img/vertical_1.jpg">
             </div>
 
-            <div class="icon-with-text">
-                <!-- <div class="d-flex justify-content-center"> -->
-                <div class="finance-icons" id="icon-image-one">
-                    <img src="./img/icon/market_analysis.png" alt="">
+            <div class="icons-for-best">
+                <div class="headline">
+                    <h3>WELCOME TO BIZALLYS </h3>
+                    <h1>We Are The Best Accounting Agency</h1>
                 </div>
 
-                <div class="icon-details">
-                    <h1>Regular</h1>
-                    <h2>Market Analysis</h2>
-                    <p></p>
-                </div>
-            </div>
+                <div class="icon-with-text">
+                    <!-- <div class="d-flex justify-content-center"> -->
+                    <div class="finance-icons" id="icon-image-one">
+                        <img src="./img/icon/market_analysis.png" alt="">
+                    </div>
 
-            <div class="icon-with-text">
-                <div class="finance-icons" id="icon-image-two">
-                    <img src="./img/icon/financial_management.png" alt="">
+                    <div class="icon-details">
+                        <h1>Regular</h1>
+                        <h2>Market Analysis</h2>
+                        <p></p>
+                    </div>
                 </div>
-                <div class="icon-details">
-                    <h1>24*7</h1>
-                    <h2>Financial Management</h2>
-                    <p></p>
-                </div>
-            </div>
 
-            <div class="icon-with-text">
-                <div class="finance-icons" id="icon-image-three">
-                    <img src="./img/icon/governance.png" alt="">
+                <div class="icon-with-text">
+                    <div class="finance-icons" id="icon-image-two">
+                        <img src="./img/icon/financial_management.png" alt="">
+                    </div>
+                    <div class="icon-details">
+                        <h1>24*7</h1>
+                        <h2>Financial Management</h2>
+                        <p></p>
+                    </div>
                 </div>
-                <div class="icon-details">
-                    <h1>360°</h1>
-                    <h2>Governance</h2>
-                    <p></p>
-                </div>
-            </div>
 
-            <div class="icon-with-text">
-                <div class="finance-icons" id="icon-image-four">
-                    <img src="./img/icon/time_money.png" alt="">
+                <div class="icon-with-text">
+                    <div class="finance-icons" id="icon-image-three">
+                        <img src="./img/icon/governance.png" alt="">
+                    </div>
+                    <div class="icon-details">
+                        <h1>360°</h1>
+                        <h2>Governance</h2>
+                        <p></p>
+                    </div>
                 </div>
-                <div class="icon-details">
-                    <h1>Save</h1>
-                    <h2>Time & Money</h2>
-                    <p></p>
-                </div>
-            </div>
 
-            <div class="icon-with-text">
-                <div class="finance-icons" id="icon-image-five">
-                    <img src="./img/icon/data_security.png" alt="">
+                <div class="icon-with-text">
+                    <div class="finance-icons" id="icon-image-four">
+                        <img src="./img/icon/time_money.png" alt="">
+                    </div>
+                    <div class="icon-details">
+                        <h1>Save</h1>
+                        <h2>Time & Money</h2>
+                        <p></p>
+                    </div>
                 </div>
-                <div class="icon-details">
-                    <h1>100%</h1>
-                    <h2>Data Security</h2>
-                    <p></p>
-                </div>
-            </div>
 
-        </div>
-    </div>
-    <div id="block-2" class="align-items-center d-flex flex-column container">
-        <div class="block-2-title">
-            <div class="headline">
-                <h2>WELCOME TO BIZALLYS </h2>
-                <h1>We Are The Best Accounting Agency</h1>
+                <div class="icon-with-text">
+                    <div class="finance-icons" id="icon-image-five">
+                        <img src="./img/icon/data_security.png" alt="">
+                    </div>
+                    <div class="icon-details">
+                        <h1>100%</h1>
+                        <h2>Data Security</h2>
+                        <p></p>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <div class="block-2-content d-flex flex-wrap pt-5 row column-gap-5">
-
-            <div class="icon-with-text col">
-                <div class="finance-icons" id="icon-image-two">
-                    <img src="./img/icon/financial_management.png" alt="">
-                </div>
-                <div class="icon-details">
-                    <h1>24*7</h1>
-                    <h2>Financial Management</h2>
-                    <p></p>
+        <div id="block-2" class="align-items-center d-flex flex-column container">
+            <div class="block-2-title">
+                <div class="headline">
+                    <h2>WELCOME TO BIZALLYS </h2>
+                    <h1>We Are The Best Accounting Agency</h1>
                 </div>
             </div>
+            <div class="block-2-content d-flex flex-wrap pt-5 row column-gap-5">
 
-            <div class="icon-with-text col">
-                <div class="finance-icons" id="icon-image-three">
-                    <img src="./img/icon/governance.png" alt="">
+                <div class="icon-with-text col">
+                    <div class="finance-icons" id="icon-image-two">
+                        <img src="./img/icon/financial_management.png" alt="">
+                    </div>
+                    <div class="icon-details">
+                        <h1>24*7</h1>
+                        <h2>Financial Management</h2>
+                        <p></p>
+                    </div>
                 </div>
-                <div class="icon-details">
-                    <h1>360°</h1>
-                    <h2>Governance</h2>
-                    <p></p>
-                </div>
-            </div>
 
-            <div class="icon-with-text col">
-                <div class="finance-icons" id="icon-image-four">
-                    <img src="./img/icon/time_money.png" alt="">
+                <div class="icon-with-text col">
+                    <div class="finance-icons" id="icon-image-three">
+                        <img src="./img/icon/governance.png" alt="">
+                    </div>
+                    <div class="icon-details">
+                        <h1>360°</h1>
+                        <h2>Governance</h2>
+                        <p></p>
+                    </div>
                 </div>
-                <div class="icon-details">
-                    <h1>Save</h1>
-                    <h2>Time & Money</h2>
-                    <p></p>
-                </div>
-            </div>
 
-            <div class="icon-with-text col">
-                <div class="finance-icons" id="icon-image-five">
-                    <img src="./img/icon/data_security.png" alt="">
+                <div class="icon-with-text col">
+                    <div class="finance-icons" id="icon-image-four">
+                        <img src="./img/icon/time_money.png" alt="">
+                    </div>
+                    <div class="icon-details">
+                        <h1>Save</h1>
+                        <h2>Time & Money</h2>
+                        <p></p>
+                    </div>
                 </div>
-                <div class="icon-details">
-                    <h1>100%</h1>
-                    <h2>Data Security</h2>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- 3rd Block -->
-    <div class="services-block align-items-center d-flex flex-column">
-        <div class="block-2-title">
-            <div class="headline">
-                <h1>OUR SERVICES</h1>
-            </div>
-        </div>
-        <div class="services-row pt-5">
-
-            <div class="container-animated first1" data-aos="fade-up" data-aos-delay="100">
-                <div class="feature-item" id="inrow-box1">
-                    <div class="caption">
-                        <img src="./img/icon/wealth.png">
-                        <h2>Accounting</h2>
-                        <p>Relax and focus on business while your finance operations are managed by professionals</p>
+                <div class="icon-with-text col">
+                    <div class="finance-icons" id="icon-image-five">
+                        <img src="./img/icon/data_security.png" alt="">
+                    </div>
+                    <div class="icon-details">
+                        <h1>100%</h1>
+                        <h2>Data Security</h2>
+                        <p></p>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="container-animated second1" data-aos="fade-up" data-aos-delay="200">
-                <div class="feature-item" id="inrow-box2">
-                    <div class="border-box">
+        <!-- 3rd Block -->
+        <div class="services-block align-items-center d-flex flex-column">
+            <div class="block-2-title">
+                <div class="headline">
+                    <h1>OUR SERVICES</h1>
+                </div>
+            </div>
+            <div class="services-row pt-5">
+
+                <div class="container-animated first1" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-item" id="inrow-box1">
                         <div class="caption">
                             <img src="./img/icon/wealth.png">
-                            <h2>Startup</h2>
+                            <h2>Accounting</h2>
                             <p>Relax and focus on business while your finance operations are managed by professionals
                             </p>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="container-animated" data-aos="fade-up" data-aos-delay="300">
-                <div class="feature-item" id="inrow-box3">
-                    <div class="border-box">
-                        <div class="caption">
-                            <img src="./img/icon/wealth.png">
-                            <h2>Taxes</h2>
-                            <p>Relax and focus on business while your finance operations are managed by professionals
-                            </p>
+                <div class="container-animated second1" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-item" id="inrow-box2">
+                        <div class="border-box">
+                            <div class="caption">
+                                <img src="./img/icon/wealth.png">
+                                <h2>Startup</h2>
+                                <p>Relax and focus on business while your finance operations are managed by
+                                    professionals
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="container-animated" data-aos="fade-up" data-aos-delay="400">
-                <div class="feature-item" id="inrow-box4">
-                    <div class="border-box">
-                        <div class="caption">
-                            <img src="./img/icon/wealth.png">
-                            <h2>Payroll</h2>
-                            <p>Relax and focus on business while your finance operations are managed by professionals
-                            </p>
+                <div class="container-animated" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-item" id="inrow-box3">
+                        <div class="border-box">
+                            <div class="caption">
+                                <img src="./img/icon/wealth.png">
+                                <h2>Taxes</h2>
+                                <p>Relax and focus on business while your finance operations are managed by
+                                    professionals
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
+                <div class="container-animated" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-item" id="inrow-box4">
+                        <div class="border-box">
+                            <div class="caption">
+                                <img src="./img/icon/wealth.png">
+                                <h2>Payroll</h2>
+                                <p>Relax and focus on business while your finance operations are managed by
+                                    professionals
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- 3rd Block -->
+
+        <!-- 4th Block -->
+        <div class="fourth-block">
+            <div class="max-width-fourth">
+                <div class="bold-heading">
+                    <h1>LATEST VIDEOS</h1>
+                </div>
+
+                <div id="video-button" onclick="videoOnClick()" class="view-all">
+                    <!-- <button>View All Video</button> -->
+                    <button onclick="event.preventDefault();event.stopPropagation();videoCarouselPrevClick()" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="visually-hidden">Previous</span>
+                        <span id="left-icon" class="fa fa-long-arrow-left"></span>
+                      </button>
+                      <button  onclick="event.preventDefault();event.stopPropagation();videoCarouselNextClick()" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="visually-hidden">Next</span>
+                        <span id="right-icon" class="fa fa-long-arrow-right"></span>
+                      </button>
+                </div>
+
+                <div id="carouselExampleControls" class="carousel d-grid" data-bs-ride="carousel">
+                    <div id="carousel-inner-video" class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="card">
+                            <iframe height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 2</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <iframe height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 2</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <iframe height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 2</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <iframe height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 2</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <iframe height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 2</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                   
+                  </div>
+
+            </div>
         </div>
     </div>
-    <!-- 3rd Block -->
-
-    <!-- 4th Block -->
-    <div class="fourth-block">
-        <div class="max-width-fourth">
-            <div class="bold-heading">
-                <h1>LATEST VIDEOS</h1>
-            </div>
-
-            <div id="video-button" onclick="videoOnClick()" class="view-all">
-                <button>View All Video</button>
-            </div>
-
-            <div id="blue-video-box" class="row-video-container">
-                <span id="less-view">
-                    <iframe width="350" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-                    <iframe width="350" height="200" src="https://youtu.be/yYX4bvQSqbo?si=OS0NeUXbVN_iYjjQ"></iframe>
-                    <iframe width="350" height="200" src="https://www.youtube.com/watch?v=RUynRN6g4Zs"></iframe>
-                    <iframe width="350" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-                </span>
-                <span id="more-view">
-                    <iframe width="350" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-                    <iframe width="350" height="200" src="https://youtu.be/yYX4bvQSqbo?si=OS0NeUXbVN_iYjjQ"></iframe>
-                </span>
-            </div>
-
-
-        </div>
-    </div>
-
-</div>
 
 
     <!-- 4th Block -->
