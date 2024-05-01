@@ -4,6 +4,11 @@
     .upper-row {
         justify-content: space-between;
     }
+
+    #video-button button {
+        display: none;
+    }
+
 }   
 
 @media screen and (max-width: 390px) {
