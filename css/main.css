@@ -12,7 +12,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
 	--blue: #007bff;
 	--indigo: #6610f2;
 	--purple: #6f42c1;
@@ -179,8 +179,6 @@ body {
 	padding: 0 5%;
 }
 
-.upper-row 
-
 .left-side {
 	/* position: relative; */
 	/* max-width: 60%;
@@ -189,7 +187,6 @@ body {
 
 .left-side ul {
 	margin: 0;
-	/* float: left; */
 	padding: 0;
 	height: 100%;
 }
@@ -204,13 +201,14 @@ body {
 	list-style: none;
 	display: inline-block;
 	border-right: 1px solid white;
+	border-left: 1px solid white;
 	padding-right: 15px;
 	padding-left: 15px;
 }
 
-.left-side ul li:first-child {
+/* .left-side ul li:first-child {
 	border-left: 1px solid white;
-}
+} */
 
 .left-side ul li a {
 	color: white;
@@ -604,11 +602,14 @@ body {
     line-height: 1.5;
 	/* color: var(--blue);; */
     letter-spacing: 1px;
-	color: black;
+	color: #5a5858;
 }
 
 .icon-details h2 {
 	font-size: 20px;
+	color: #5a5858;
+	letter-spacing: 1px;
+	font-weight: 500;
 }
 /* 2nd Block */
 
@@ -632,7 +633,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-	max-width: 230px;
+	max-width: 250px;
     margin: 15px;
 }
 
