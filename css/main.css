@@ -200,8 +200,6 @@ body {
 	height: inherit;
 	list-style: none;
 	display: inline-block;
-	border-right: 1px solid white;
-	border-left: 1px solid white;
 	padding-right: 15px;
 	padding-left: 15px;
 }
@@ -242,14 +240,9 @@ body {
 	height: inherit;
 	list-style: none;
 	display: inline-block;
-	border-right: 1px solid white;
 	/* width: 46px;  */
 	padding-right: 4px;
 	padding-left: 4px;
-}
-
-.right-side ul li:first-child {
-	border-left: 1px solid white;
 }
 
 .right-side ul li a {

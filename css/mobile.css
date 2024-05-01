@@ -2,16 +2,11 @@
 /* for tob blue bar */
 @media screen and (max-width: 600px) {
     .upper-row {
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 }   
-@media screen and (max-width: 400px) {
-    .upper-row {
-        padding: 0 0;
-    }
-}
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
     .upper-side {
         height: auto;
     }
@@ -24,19 +19,6 @@
         flex-direction: column;
     }
 
-    .left-side ul li:first-child {
-        border-left: none;
-    }
-    .left-side ul li {
-        border-right: none;
-    }    
-
-    .right-side ul li:first-child {
-        border-left: none;
-    }
-    .right-side ul li {
-        border-right: none;
-    }
 }
 
 
@@ -126,7 +108,7 @@
     }
 
     .nav-item > ul > li {
-        /* padding: 15px 0; */
+        padding: 15px 0;
         position: relative;
         width: 100%;
         /* border-bottom: 1px solid lightgrey; */
