@@ -4,6 +4,11 @@
     .upper-row {
         justify-content: space-between;
     }
+
+    #video-button button {
+        display: none;
+    }
+
 }   
 
 @media screen and (max-width: 390px) {
@@ -83,10 +88,7 @@
         display: flex;
         width: auto;
         padding: 10px 10px;
-        border: 1px solid black;
-        right: 35px;
-        left: auto;
-        top: 20%;
+        /* border: 1px solid black; */
         justify-content: center;
     }
 
