@@ -1,38 +1,12 @@
 
-/* for tob blue bar */
-@media screen and (max-width: 600px) {
-    .upper-row {
-        justify-content: space-between;
-    }
-
-    #video-button button {
-        display: none;
-    }
-
-}   
-
-@media screen and (max-width: 390px) {
-    .upper-side {
-        height: auto;
-    }
-    .upper-row {
-        flex-direction: column;
-    }
-
-    .left-side ul {
-        display: flex;
-        flex-direction: column;
-    }
-
+@media screen and (min-width: 970px) {
+	.nav-item ul li:hover ul {
+		display: block;
+	}
 }
-
 
 /* screen less than 970px */
 @media screen and (max-width: 970px) {
-
-    /* .fa-bars {
-        font-size: 25px;
-    } */
 
     .app-header {
         position: relative;
@@ -150,8 +124,42 @@
         animation-name: none !important;
     }
 
+}
+
+
+@media screen and (max-width: 760px) {
+    .card-fix-border {
+        width: 300px;
+    }
+}
+
+/* for tob blue bar */
+@media screen and (max-width: 600px) {
+    .upper-row {
+        justify-content: space-between;
+    }
+
+    #video-button button {
+        display: none;
+    }
+
+}   
+
+@media screen and (max-width: 390px) {
+    .upper-side {
+        height: auto;
+    }
+    .upper-row {
+        flex-direction: column;
+    }
+
+    .left-side ul {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
+
 
 /* screen less than 400px */
 @media screen and (max-width: 400px) {

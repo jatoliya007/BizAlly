@@ -379,7 +379,8 @@ body {
 	cursor: pointer;
 	/* background-color: #f6f1f1; */
 	padding: 20px 10px;
-	color: #808080;
+	/* color: #808080; */
+	color: #636060;
 	text-decoration: none;
 }
 
@@ -471,12 +472,6 @@ body {
 	/* background-color: white; */
 	transition: all 0.5s ease 0s;
 	font-weight: 600;
-}
-
-@media screen and (min-width: 970px) {
-	.nav-item ul li:hover ul {
-		display: block;
-	}
 }
 
 /* HEADER */
@@ -646,7 +641,7 @@ body {
 /* ---3rd Block--- */
 .services-block {
 	margin: 70px auto;
-	max-width: 1140px;
+	/* max-width: 1140px; */
 	grid-gap: 10px;
 }
 
@@ -660,7 +655,7 @@ body {
 
 .services-row {
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	justify-content: center;
 }
 
@@ -671,7 +666,7 @@ body {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	max-width: 250px;
+	max-width: 300px;
 	margin: 15px;
 }
 
@@ -848,6 +843,7 @@ body {
 
 /* <!-- 5th Block --> */
 .block-five-heading h1 {
+	text-align: center;
 	color: #00267a;
 	font-size: 40px;
 	font-weight: 600;
@@ -857,7 +853,7 @@ body {
 
 .toppanel-offerings > ul > li {
 	list-style: none;
-	margin: 0 10px;
+	margin: 10px;
 	color: white;
 	cursor: pointer;
 
@@ -907,27 +903,30 @@ body {
 }
 
 .card-fix-border {
-	width: 25%;
-	box-shadow: 4px 8px 14px rgba(0, 0, 0, 0.11);
+	width: 300px;
+	box-shadow: 4px 8px 14px rgba(0, 0, 0, 0.25);
 }
 
 #content-start>div {
 	/* border-top: 4px solid #0055c1; */
-	background: linear-gradient(to bottom, #0e6de6, #0032c1);
+	/* background: linear-gradient(to bottom, #0e6de6, #0032c1); */
 }
 
 #content-manage>div {
 	/* border-top: 4px solid #f34385; */
-	background: linear-gradient(to bottom, #f34385, #fdb485);
+	/* background: linear-gradient(to bottom, #f34385, #fdb485); */
 }
 
 #content-protect>div {
-	background: linear-gradient(to bottom, #2eaedd, #345d7b);
+	/* background: linear-gradient(to bottom, #2eaedd, #345d7b); */
 }
 
 #content-virtual>div.card-fix-border {
-	background: linear-gradient(to bottom, #10d9b3, #09b264);
+	/* background: linear-gradient(to bottom, #10d9b3, #09b264); */
 	/* background-color: red; */
+}
+.card-text {
+	/* color: white; */
 }
 
 .card-text h3 {
