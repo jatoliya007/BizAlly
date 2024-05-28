@@ -97,6 +97,7 @@ function multicolortab(evt, openid) {
     // for (let j = 0; j < allPanelContent.children.length; j++) {
     //     allPanelContent.children[j].style.display = "none";            
     // }
+    // we can write this also instead of below one
 
     let onclickcontent = document.getElementsByClassName("onclick-content");
     for(let i = 0; i < onclickcontent.length; i++) {
@@ -107,17 +108,13 @@ function multicolortab(evt, openid) {
      for(let i = 0; i < multicolorlinks.length; i++) {
         multicolorlinks[i].className = multicolorlinks[i].className.replace(" active", "");
         multicolorlinks[i].style.filter = 'none';   
-        // let menuItem = multicolorlinks[i].querySelector('li');
-        // menuItem.style.filter = 'none';    
-
      }
      
     document.getElementById(openid).style.display = "flex";
-    // let menuItem = evt.currentTarget.querySelector('li');
-    // menuItem.style.filter = `drop-shadow(2px 4px 6px var(--primary))`;
+
     evt.currentTarget.className += " active";
-    evt.currentTarget.style.filter = `drop-shadow(2px 4px 6px var(--primary))`;
     
+    evt.currentTarget.style.filter = `drop-shadow(2px 4px 6px var(--primary))`; 
 }
 
 document.getElementById("default-active-start-business").click()
